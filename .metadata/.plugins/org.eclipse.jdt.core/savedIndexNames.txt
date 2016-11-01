@@ -1,0 +1,4 @@
+INDEX VERSION 1.129+C:\Users\HikingBear\Documents\GitHub\DYDT\.metadata\.plugins\org.eclipse.jdt.core
+1394466397.index
+655067490.index
+3033075822.index
