@@ -1,0 +1,6 @@
+package com.HikingBear.DYDT;
+
+import android.widget.ListView;
+
+private class DrawerItemClickListener implements ListView.OnitemClickListener {
+}

@@ -18,5 +18,10 @@
 
 구글스토어 등록까지가 목표이다. 2주내에 버그없이 완성하는것이 목표. 100다운로드하자
 ---------------------------------------------------------------------------------
+[오후 6:22 2016-11-02]
 
-	
+Achievement, AddSchedule, Send, Settings Activity 추가. 기능추가 예정.
+				각각 layout.xml도 추가. 기능추가 예정.
+AndroidManifest.xml에서 menu actionbar에 있는 icon, title 제거.
+
+market://details?id=패키지명 // 이를 사용하면 마켓으로 연결된다는데. 어떻게 하는걸까?
