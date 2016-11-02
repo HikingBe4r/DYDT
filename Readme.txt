@@ -22,6 +22,25 @@
 
 Achievement, AddSchedule, Send, Settings Activity 추가. 기능추가 예정.
 				각각 layout.xml도 추가. 기능추가 예정.
-AndroidManifest.xml에서 menu actionbar에 있는 icon, title 제거.
+AndroidManifest.xml에서 menu actionbar에 있는 icon, title 제거. == claer[오전 2:41 2016-11-03]
 
 market://details?id=패키지명 // 이를 사용하면 마켓으로 연결된다는데. 어떻게 하는걸까?
+
+------------------------------------------------------------
+[오전 2:21 2016-11-03] 
+
+ic_drawer 터치가 너무 작음. 확인요망. -- 야매로 그림크기를 키워서 하긴했는데 너무 벽에 붙어있는게 문제인듯. [오전 2:46 2016-11-03]
+intent오류. 각 activity 확인요망 == clear [오전 2:41 2016-11-03]
+
+getActionBar().setTitle("");
+getActionBar().setIcon(android.R.color.transparent);
+
+이 두가지를
+
+actionbar.setDisplayShowTitleEnabled(false);
+actionbar.setDisplayShowHomeEnabled(false);
+로 변경하게되면. 액션바에서 아이콘과 title이 없어짐.
+
+MainActivity 구성요소 - DrawerActionBar, Floating Action Button, ListView
+
+[오전 4:26 2016-11-03]  FAB 하려다 실패. library를 넣어야 하는것 같음.

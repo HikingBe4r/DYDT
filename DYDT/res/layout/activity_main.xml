@@ -4,13 +4,14 @@
     android:layout_height="match_parent"
     android:id="@+id/dl_activity_main_drawer"
     tools:context=".MainActivity" >
- 
+    
  	<!-- 1. 주 컨텐츠를 표시할 뷰 -->
     <FrameLayout 
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/fl_activity_main_container" />
-    
+        android:id="@+id/fl_activity_main_container">
+    	
+    </FrameLayout>
     
     <!-- 2. 드로어에 표시될 뷰 -->
     <ListView 

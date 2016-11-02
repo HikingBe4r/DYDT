@@ -1,0 +1,18 @@
+// 한주의 달성률 보기 액티비티
+
+package com.HikingBear.DYDT;
+
+import android.app.ActionBar;
+import android.app.Activity;
+import android.os.Bundle;
+
+public class AchievementActivity extends Activity{
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_achievement);
+		
+		actionBar.setDisplayShowTitleEnabled(false);
+	}
+
+}

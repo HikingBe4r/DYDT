@@ -1,0 +1,15 @@
+// 개발자에게 메일보내기 기능.
+
+package com.HikingBear.DYDT;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class SendActivity extends Activity{
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_send);
+	}
+
+}

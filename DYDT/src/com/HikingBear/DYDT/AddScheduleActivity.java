@@ -2,6 +2,22 @@
 
 package com.HikingBear.DYDT;
 
-public class AddScheduleActivity {
+import android.app.ActionBar;
+import android.app.Activity;
+import android.os.Bundle;
+
+public class AddScheduleActivity extends Activity{
+	private ActionBar actionBar;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_addschedule);
+		
+		actionBar = getActionBar();
+		
+		//actionBar.setDisplayShowTitleEnabled(false);
+		actionBar.setTitle("addschedule");
+		actionBar.setDisplayShowHomeEnabled(false);
+	}
 
 }
